@@ -29,7 +29,7 @@ export const fetchRocketsAPI = () => async (dispatch) => {
   await fetch(`${baseURL}`)
     .then((response) => response.json())
     .then((rocketsList) => {
-      console.log(rocketsList);
+    // console.log(rocketsList);
       const arrangedList = rocketsList.map((rocket) => ({
         id: rocket.rocket_id,
         name: rocket.rocket_name,
