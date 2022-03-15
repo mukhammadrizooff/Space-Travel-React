@@ -9,7 +9,7 @@ const App = () => (
   <>
     <Header />
     <Routes>
-      <Route exact path="/" component={Rockets} />
+      <Route exact path="/" element={<Rockets />} />
       <Route path="/missions" element={<Missions />} />
       <Route path="/profile" element={<Profile />} />
       <Route path="/dragons" element={<Dragons />} />
