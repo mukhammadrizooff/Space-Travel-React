@@ -1,8 +1,12 @@
-/* .rockets-section {
+.rockets-section {
   display: flex;
   flex-direction: column;
   gap: 3rem;
   padding: 0 6rem 6rem;
+}
+
+.flex {
+    display: flex;
 }
 
 .rocket-container {
@@ -60,4 +64,4 @@ span {
   border-radius: 5px;
   color: gray;
   transition: color linear 0.2s, border-color;
-} */
+}

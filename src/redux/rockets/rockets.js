@@ -8,14 +8,18 @@ const baseURL = 'https://api.spacexdata.com/v3/rockets';
 const initialState = [];
 
 // Action Creators
-export const addRocketReservation = (payload) => ({
+export const addRocketReservation = (id) => ({
   type: ADD_RESERVATION,
-  payload,
+  payload: {
+    id
+  }
 });
 
-export const removeRocketReservation = (payload) => ({
+export const removeRocketReservation = (id) => ({
   type: REMOVE_RESERVATION,
-  payload,
+  payload: {
+    id
+  }
 });
 
 export const getRockets = (payload) => ({
@@ -32,6 +36,7 @@ export const fetchRocketsAPI = () => async (dispatch) => {
       const arrangedList = rocketsList.map((rocket) => ({
         id: rocket.rocket_id,
         name: rocket.rocket_name,
+        desc: rocket.description,
         type: rocket.rocket_type,
         flickr_images: rocket.flickr_images,
         reservation: false,
@@ -47,15 +52,15 @@ const reducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD_RESERVATION: {
       const newState = state.map((rocket) => {
-        if (rocket.id !== action.id) return rocket;
-        return { ...rocket, reserved: true };
+        if (rocket.id !== action.payload.id) return rocket;
+        return { ...rocket, reservation: true };
       });
       return [...newState];
     }
     case REMOVE_RESERVATION: {
       const newState = state.map((rocket) => {
-        if (rocket.id !== action.id) return rocket;
-        return { ...rocket, reserved: false };
+        if (rocket.id !== action.payload.id) return rocket;
+        return { ...rocket, reservation: false };
       });
       return [...newState];
     }
