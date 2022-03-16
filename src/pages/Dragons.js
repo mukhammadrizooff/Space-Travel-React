@@ -1,7 +1,33 @@
-import React from 'react';
+const URL = 'https://api.spacexdata.com/v3/dragons';
+
+const showAPI = (data) => {
+  console.log(data);
+};
+
+const getDragons = () => {
+  fetch(URL)
+    .then((resolve) => resolve.json())
+    .then((data) => {
+      showAPI(data);
+    });
+};
 
 const Dragons = () => (
-  <div>Dragons</div>
+  <>
+    <h2>
+      Dragons
+
+    </h2>
+    <button
+      type="button"
+      onClick={() => {
+        getDragons();
+      }}
+      value="fetch"
+    >
+      Fetch
+    </button>
+  </>
 );
 
 export default Dragons;
