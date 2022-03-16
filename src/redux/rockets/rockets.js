@@ -29,7 +29,6 @@ export const fetchRocketsAPI = () => async (dispatch) => {
   await fetch(`${baseURL}`)
     .then((response) => response.json())
     .then((rocketsList) => {
-    // console.log(rocketsList);
       const arrangedList = rocketsList.map((rocket) => ({
         id: rocket.rocket_id,
         name: rocket.rocket_name,
@@ -46,10 +45,20 @@ export const fetchRocketsAPI = () => async (dispatch) => {
 // Function - Reducer
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case ADD_RESERVATION:
-      return [...state, action.payload];
-    case REMOVE_RESERVATION:
-      return state.filter((book) => book.item_id !== action.payload);
+    case ADD_RESERVATION: {
+      const newState = state.map((rocket) => {
+        if (rocket.id !== action.id) return rocket;
+        return { ...rocket, reserved: true };
+      });
+      return [...newState];
+    }
+    case REMOVE_RESERVATION: {
+      const newState = state.map((rocket) => {
+        if (rocket.id !== action.id) return rocket;
+        return { ...rocket, reserved: false };
+      });
+      return [...newState];
+    }
     case GET_ROCKETS:
       return [...action.payload];
     default:
