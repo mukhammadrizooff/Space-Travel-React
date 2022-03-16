@@ -1,7 +1,10 @@
-import React from 'react';
-
 const Dragons = () => (
-  <div>Dragons</div>
+  <>
+    <h2>
+      Dragons
+
+    </h2>
+  </>
 );
 
 export default Dragons;
