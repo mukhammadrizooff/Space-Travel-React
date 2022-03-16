@@ -11,15 +11,15 @@ const initialState = [];
 export const addRocketReservation = (id) => ({
   type: ADD_RESERVATION,
   payload: {
-    id
-  }
+    id,
+  },
 });
 
 export const removeRocketReservation = (id) => ({
   type: REMOVE_RESERVATION,
   payload: {
-    id
-  }
+    id,
+  },
 });
 
 export const getRockets = (payload) => ({
