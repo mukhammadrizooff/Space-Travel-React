@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import { useSelector } from 'react-redux';
 import Dragon from './Dragon';
 
-const Rockets = () => {
+const Dragons = () => {
   const dragonList = useSelector((state) => state.dragonsReducer);
   return (
     <Container>
@@ -22,4 +22,4 @@ const Rockets = () => {
   );
 };
 
-export default Rockets;
+export default Dragons;
