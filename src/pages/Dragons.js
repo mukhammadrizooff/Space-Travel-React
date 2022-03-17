@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
 import { useSelector } from 'react-redux';
 import Dragon from './Dragon';
 
