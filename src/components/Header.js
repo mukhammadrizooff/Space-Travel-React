@@ -1,4 +1,5 @@
 /* eslint-disable */ 
+import './Header.module.css';
 import { NavLink } from 'react-router-dom';
 import planet from '../assets/planet.png';
 
