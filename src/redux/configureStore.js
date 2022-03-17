@@ -15,8 +15,11 @@ const reducer = combineReducers({
 const elementStore = createStore(reducer, applyMiddleware(thunk, logger));
 elementStore.dispatch(fetchRocketsAPI());
 elementStore.dispatch(fetchMissionsFromApi());
+<<<<<<< HEAD
 elementStore.dispatch(fetchDragonsAPI());
 elementStore.subscribe((state) => {
   console.log(state);
 });
+=======
+>>>>>>> dev
 export default elementStore;
