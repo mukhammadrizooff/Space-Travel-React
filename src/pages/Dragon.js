@@ -36,11 +36,11 @@ const Dragon = (props) => {
           {`${desc}`}
         </p>
         {reservation ? (
-          <Button type="button" className="remove-reservation" onClick={handleRemoveReserveClick}>
+          <Button variant="secondary" type="button" className="remove-reservation" onClick={handleRemoveReserveClick}>
             Cancel Reservation
           </Button>
         ) : (
-          <Button type="button" className="add-reservation" onClick={handleReserveClick}>
+          <Button variant="primary" type="button" className="add-reservation" onClick={handleReserveClick}>
             Reserve Rocket
           </Button>
         )}
