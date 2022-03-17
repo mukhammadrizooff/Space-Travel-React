@@ -6,7 +6,7 @@ import Dragon from './Dragon';
 const Rockets = () => {
   const dragonList = useSelector((state) => state.dragonsReducer);
   return (
-    <ul>
+    <Container>
       {dragonList.map((item) => (
         <Dragon
           desc={item.desc}
@@ -18,7 +18,7 @@ const Rockets = () => {
           reservation={item.reservation}
         />
       ))}
-    </ul>
+    </Container>
   );
 };
 
