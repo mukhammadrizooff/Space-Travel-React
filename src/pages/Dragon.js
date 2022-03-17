@@ -48,7 +48,7 @@ const Dragon = (props) => {
           </Button>
         ) : (
           <Button variant="primary" type="button" className="add-reservation" onClick={handleReserveClick}>
-            Reserve Rocket
+            Reserve Dragon
           </Button>
         )}
       </Col>
