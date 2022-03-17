@@ -24,7 +24,7 @@ const Dragon = (props) => {
   return (
     <Row id={id}>
       <Col sm={4} lg={4}>
-        <img style={{ width: '100%', marginBottom: '50px' }} src={image} alt="rocket" />
+        <img style={{ width: '100%', marginBottom: '50px' }} src={image} alt="Dragon" />
       </Col>
       <Col sm={8} lg={8}>
         <h2 style={{ display: 'flex', gap: '6rem' }}>
