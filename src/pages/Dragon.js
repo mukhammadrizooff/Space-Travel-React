@@ -27,16 +27,16 @@ const Dragon = (props) => {
         <img style={{ width: '100%', marginBottom: '50px' }} src={image} alt="Dragon" />
       </Col>
       <Col sm={8} lg={8}>
-        <h2 style={{ display: 'flex', gap: '6rem' }}>
-          <span>
+        <div style={{ display: 'flex', gap: '6rem' }}>
+          <h2>
             {name}
-          </span>
-          <span>
+          </h2>
+          <p>
             Type:
             {type}
-          </span>
+          </p>
 
-        </h2>
+        </div>
 
         <p>
           {reservation && <Badge bg="warning" text="dark">Reserved</Badge>}
