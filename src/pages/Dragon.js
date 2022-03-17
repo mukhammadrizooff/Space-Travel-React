@@ -1,3 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 import { useDispatch } from 'react-redux';
 import { PropTypes } from 'prop-types';
 import { addDragonReservation, removeDragonReservation } from '../redux/dragons/dragons';
@@ -7,7 +11,7 @@ const Dragon = (props) => {
   const {
     id, name, image, desc, reservation, type,
   } = props;
-  // console.log(desc);
+    // console.log(desc);
   const handleReserveClick = () => {
     dispatch(addDragonReservation(id));
   };
@@ -17,9 +21,11 @@ const Dragon = (props) => {
   };
 
   return (
-    <li id={id}>
-      <img src={image} alt="rocket" />
-      <div>
+    <Row id={id}>
+      <Col>
+        <img src={image} alt="rocket" />
+      </Col>
+      <Col>
         <h2>{name}</h2>
         <p>
           type of dragon
@@ -27,19 +33,19 @@ const Dragon = (props) => {
         </p>
         <p>
           {reservation && <span>Reserved</span>}
-          { `${desc}` }
+          {`${desc}`}
         </p>
         {reservation ? (
-          <button type="button" className="remove-reservation" onClick={handleRemoveReserveClick}>
+          <Button type="button" className="remove-reservation" onClick={handleRemoveReserveClick}>
             Cancel Reservation
-          </button>
+          </Button>
         ) : (
-          <button type="button" className="add-reservation" onClick={handleReserveClick}>
+          <Button type="button" className="add-reservation" onClick={handleReserveClick}>
             Reserve Rocket
-          </button>
+          </Button>
         )}
-      </div>
-    </li>
+      </Col>
+    </Row>
   );
 };
 
