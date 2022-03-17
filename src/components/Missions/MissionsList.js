@@ -9,7 +9,7 @@ const MissionsList = () => {
     <Table striped bordered hover>
       <thead>
         <tr>
-          <th>Mission</th>
+          <th>Missions</th>
           <th>Description</th>
           <th>Status</th>
         </tr>
