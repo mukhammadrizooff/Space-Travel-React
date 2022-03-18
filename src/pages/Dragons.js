@@ -1,10 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import { useSelector } from 'react-redux';
-import Dragon from './Dragon';
+import Dragon from '../components/Dragons/Dragon';
 
 const Dragons = () => {
-  const dragonList = useSelector((state) => state.dragonsReducer);
+  const dragonList = useSelector((state) => state.dragons);
   return (
     <Container>
       {dragonList.map((item) => (
