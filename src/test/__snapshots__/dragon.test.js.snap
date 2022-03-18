@@ -3,37 +3,7 @@
 exports[`Test render the Dragon Component Dragons section renders a hardcoded object, passed as a prop 1`] = `
 <div>
   <div
-    class="row"
-  >
-    <div
-      class="col-lg-4 col-sm-4"
-    >
-      <img
-        alt="Dragon"
-        style="width: 100%; margin-bottom: 50px;"
-      />
-    </div>
-    <div
-      class="col-lg-8 col-sm-8"
-    >
-      <div
-        style="display: flex; gap: 6rem;"
-      >
-        <h2 />
-        <p>
-          Type:
-        </p>
-      </div>
-      <p>
-        undefined
-      </p>
-      <button
-        class="add-reservation btn btn-primary"
-        type="button"
-      >
-        Reserve Dragon
-      </button>
-    </div>
-  </div>
+    class="container"
+  />
 </div>
 `;
