@@ -14,7 +14,7 @@ const dragons = [
     type: 'capsule',
     name: 'frendo',
     image: 'url',
-    reservation: false
+    reservation: false,
   },
 ];
 
