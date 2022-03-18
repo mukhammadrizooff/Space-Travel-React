@@ -6,7 +6,7 @@ const Profile = () => {
   const dragonList = useSelector((state) => state.dragonsReducer);
   const dragonReservation = dragonList.filter((dragon) => dragon.reservation === true);
   const rocketList = useSelector((state) => state.rocketsReducer);
-  const profileRocket = rocketList.filter((rocket) => rocket.reserved === true);
+  const profileRocket = rocketList.filter((rocket) => rocket.reservation === true);
   console.log(profileRocket);
 
   return (
