@@ -8,13 +8,13 @@ import Dragons from '../pages/Dragons';
 // ARRANGE
 const dragons = [
   {
-    desc:'The best capsule in the solar system',
-    key:'besto',
-    id:'besto',
-    type:'capsule',
-    name:'frendo',
-    image:'url',
-    reservation:false
+    desc: 'The best capsule in the solar system',
+    key: 'besto',
+    id: 'besto',
+    type: 'capsule',
+    name: 'frendo',
+    image: 'url',
+    reservation: false
   },
 ];
 
