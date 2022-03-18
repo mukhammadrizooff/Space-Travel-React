@@ -6,7 +6,7 @@ import elementStore from '../redux/configureStore';
 import Missions from '../pages/Missions';
 
 // Arangment
-const rockets = [
+const missions = [
   {
     desc: 'The SpaceX Misions are best plan for system',
     key: 'cheers',
@@ -23,7 +23,7 @@ describe('Test render the Missions Component', () => {
     // Action
     const { container } = render(
       <Provider store={elementStore}>
-        <Missions key={Missions[0]} dragon={Missions[0]} />
+        <Missions key={missions[0]} mission={missions[0]} />
       </Provider>,
     );
 

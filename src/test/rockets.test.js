@@ -23,7 +23,7 @@ describe('Test render the Rockets Component', () => {
     // Action
     const { container } = render(
       <Provider store={elementStore}>
-        <Rockets key={rockets[0].id} dragon={rockets[0]} />
+        <Rockets key={rockets[0].id} rocket={rockets[0]} />
       </Provider>,
     );
 
