@@ -18,8 +18,8 @@ const rockets = [
   },
 ];
 
-describe('Test render the Dragon Component', () => {
-  it('Dragons section renders a hardcoded object, passed as a prop', () => {
+describe('Test render the Rockets Component', () => {
+  it('Rockets section renders a hardcoded object, passed as a prop', () => {
     // Action
     const { container } = render(
       <Provider store={elementStore}>
