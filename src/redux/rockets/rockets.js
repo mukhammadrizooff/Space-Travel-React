@@ -39,6 +39,7 @@ export const fetchRocketsAPI = () => async (dispatch) => {
         desc: rocket.description,
         type: rocket.rocket_type,
         flickr_images: rocket.flickr_images,
+        wikipedia: rocket.wikipedia,
         reservation: false,
       }));
       if (arrangedList) {
