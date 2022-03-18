@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test render the Rocket Component Rockets section renders a hardcoded object, passed as a prop 1`] = `
+<div>
+  <ul
+    class="flex"
+  />
+</div>
+`;
