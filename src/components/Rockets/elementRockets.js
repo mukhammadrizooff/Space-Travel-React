@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { PropTypes } from 'prop-types';
-import { addRocketReservation, removeRocketReservation } from '../redux/rockets/rockets';
+import { addRocketReservation, removeRocketReservation } from '../../redux/rockets/rockets';
 
 const elementRockets = (props) => {
   const dispatch = useDispatch();
@@ -18,7 +18,7 @@ const elementRockets = (props) => {
 
   return (
     <li className="rocket-container" id={id}>
-      <img src={image} alt="rocket" />
+      <img style={{ width: '350px' }} src={image} alt="rocket" />
       <div className="rocket-description">
         <h2>{name}</h2>
         <p>

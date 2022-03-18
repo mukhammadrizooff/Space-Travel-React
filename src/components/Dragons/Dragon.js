@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Badge from 'react-bootstrap/Badge';
 import { useDispatch } from 'react-redux';
 import { PropTypes } from 'prop-types';
-import { addDragonReservation, removeDragonReservation } from '../redux/dragons/dragons';
+import { addDragonReservation, removeDragonReservation } from '../../redux/dragons/dragons';
 
 const Dragon = (props) => {
   const dispatch = useDispatch();

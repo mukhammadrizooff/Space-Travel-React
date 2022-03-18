@@ -3,7 +3,7 @@ import '@testing-library/jest-dom/extend-expect';
 import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import elementStore from '../redux/configureStore';
-import Dragon from '../pages/Dragon';
+import Dragons from '../pages/Dragons';
 
 // ARRANGE
 const dragons = [
@@ -21,7 +21,7 @@ describe('Test render the Dragon Component', () => {
     // ACT
     const { container } = render(
       <Provider store={elementStore}>
-        <Dragon key={dragons[0].id} dragon={dragons[0]} />
+        <Dragons key={dragons[0].id} dragon={dragons[0]} />
       </Provider>,
     );
 

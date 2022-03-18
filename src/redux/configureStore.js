@@ -7,8 +7,8 @@ import missionsReducer, {fetchMissionsFromApi} from './missions/missions';
 import dragonsReducer, {fetchDragonsAPI} from './dragons/dragons';
 
 const reducer = combineReducers({
-  dragonsReducer, 
-  rocketsReducer,
+  dragons: dragonsReducer, 
+  rockets: rocketsReducer,
   missions: missionsReducer
 });
 
