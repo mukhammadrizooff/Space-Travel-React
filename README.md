@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[![Netlify Status / heroku](xxxxxxxxxxxxxx/)
+[![Heroku](https://react-space-travel.herokuapp.com/)
 
 ## Table of Contents
 
