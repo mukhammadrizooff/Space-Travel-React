@@ -110,4 +110,4 @@ The ideas and inspiration from this project are coming from the following articl
 
 ## License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](MIT.md) licensed.
