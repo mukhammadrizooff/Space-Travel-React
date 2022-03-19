@@ -11,7 +11,8 @@
 
 ## Live Demo
 
-[![Heroku](https://react-space-travel.herokuapp.com/)
+[Heroku](https://react-space-travel.herokuapp.com/)
+[Github Pages](https://sumairq.github.io/)
 
 ## Table of Contents
 
