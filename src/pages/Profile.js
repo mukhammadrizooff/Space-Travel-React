@@ -44,7 +44,7 @@ const Profile = () => {
         </thead>
         <tbody>
           {profileMission.length ? (
-            <tr>
+            <>
               {profileMission.map((item) => (
                 <ProfileMissions
                   key={item.mission_id}
@@ -53,7 +53,7 @@ const Profile = () => {
                   description={item.mission_description}
                 />
               ))}
-            </tr>
+            </>
           ) : (
             <tr className="empty"><td>You have not joined any missions</td></tr>
           )}
