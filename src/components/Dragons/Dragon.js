@@ -12,7 +12,7 @@ const Dragon = (props) => {
   const {
     id, name, image, desc, reservation, type,
   } = props;
-  // console.log(desc);
+
   const handleReserveClick = () => {
     dispatch(addDragonReservation(id));
   };

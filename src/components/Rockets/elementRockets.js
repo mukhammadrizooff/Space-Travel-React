@@ -9,7 +9,7 @@ const elementRockets = (props) => {
   const {
     id, name, image, desc, reserved,
   } = props;
-  // console.log(desc);
+
   const handleReserveClick = () => {
     dispatch(addRocketReservation(id));
   };
