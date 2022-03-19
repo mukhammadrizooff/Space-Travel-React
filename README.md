@@ -89,7 +89,7 @@ To get a local copy up and running follow these simple example steps.
  Platform | Badge |
  --- | --- |
  **GitHub**  | [@mukhammadrizooff](https://github.com/mukhammadrizooff)
- **Twitter** | [@sumair_qaisar](https://twitter.com/Muhammadrizooff)
+ **Twitter** | [@muhammadrizooff](https://twitter.com/Muhammadrizooff)
  **LinkedIn** | [Mukhammad Rizo Abdunazarov ](https://www.linkedin.com/in/mukhammadrizooff/)
 
 👤 **David**
