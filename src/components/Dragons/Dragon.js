@@ -27,27 +27,30 @@ const Dragon = (props) => {
         <img style={{ width: '100%', marginBottom: '50px' }} src={image} alt="Dragon" />
       </Col>
       <Col sm={8} lg={8}>
-        <div style={{ display: 'flex', gap: '6rem' }}>
+        <div style={{
+          display: 'flex', gap: '6rem', marginBottom: '1.5rem', alignItems: 'center',
+        }}
+        >
           <h2>
             {name}
           </h2>
-          <p>
-            Type:
-            {type}
+          <p style={{ display: 'flex', gap: '1rem', fontSize: '2rem' }}>
+            <h3>Type:</h3>
+            <h3>{type}</h3>
           </p>
 
         </div>
 
-        <p>
+        <p style={{ fontSize: '1.5rem', marginBottom: '1.5rem' }}>
           {reservation && <Badge bg="warning" text="dark">Reserved</Badge>}
           {`${desc}`}
         </p>
         {reservation ? (
-          <Button variant="secondary" type="button" className="remove-reservation" onClick={handleRemoveReserveClick}>
+          <Button size="lg" variant="secondary" type="button" className="remove-reservation" onClick={handleRemoveReserveClick}>
             Cancel Reservation
           </Button>
         ) : (
-          <Button variant="primary" type="button" className="add-reservation" onClick={handleReserveClick}>
+          <Button size="lg" variant="primary" type="button" className="add-reservation" onClick={handleReserveClick}>
             Reserve Dragon
           </Button>
         )}

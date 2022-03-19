@@ -9,15 +9,17 @@
   display: flex;
 }
 
-.rocket-container {
+.rocketContainer {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.rocket-description {
+.rocketDescription {
   display: flex;
   flex-direction: column;
   gap: 1.8rem;
+  justify-content: flex-start;
 }
 
 h2 {
@@ -38,7 +40,7 @@ span {
   margin-right: 10px;
 }
 
-.add-reservation {
+.addReservation {
   width: 15rem;
   height: 4rem;
   font-size: 1.5rem;
@@ -50,8 +52,8 @@ span {
   transition: background-color linear 0.2s;
 }
 
-.remove-reservation {
-  width: 16rem;
+.removeReservation {
+  width: 15rem;
   height: 4rem;
   font-size: 1.5rem;
   background-color: transparent;
@@ -60,4 +62,9 @@ span {
   border-radius: 5px;
   color: gray;
   transition: color linear 0.2s, border-color;
+}
+
+ul.test1 {
+  display: flex;
+  flex-direction: column;
 }

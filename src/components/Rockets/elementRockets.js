@@ -1,5 +1,7 @@
 import { useDispatch } from 'react-redux';
+import Button from 'react-bootstrap/Button';
 import { PropTypes } from 'prop-types';
+import styles from '../../pages/Rockets.module.css';
 import { addRocketReservation, removeRocketReservation } from '../../redux/rockets/rockets';
 
 const elementRockets = (props) => {
@@ -17,22 +19,22 @@ const elementRockets = (props) => {
   };
 
   return (
-    <li className="rocket-container" id={id}>
+    <li className={styles.rocketContainer} id={id}>
       <img style={{ width: '350px' }} src={image} alt="rocket" />
-      <div className="rocket-description">
+      <div className={styles.rocketDescription}>
         <h2>{name}</h2>
         <p>
           {reserved && <span>Reserved</span>}
           { `${desc}` }
         </p>
         {reserved ? (
-          <button type="button" className="remove-reservation" onClick={handleRemoveReserveClick}>
+          <Button type="button" className={styles.removeReservation} onClick={handleRemoveReserveClick}>
             Cancel Reservation
-          </button>
+          </Button>
         ) : (
-          <button type="button" className="add-reservation" onClick={handleReserveClick}>
+          <Button type="button" variant="danger" className={styles.addReservation} onClick={handleReserveClick}>
             Reserve Rocket
-          </button>
+          </Button>
         )}
       </div>
     </li>
