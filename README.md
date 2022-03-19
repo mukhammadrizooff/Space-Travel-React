@@ -84,11 +84,12 @@ To get a local copy up and running follow these simple example steps.
  **Twitter** | [@sumair_qaisar](https://twitter.com/sumair_qaisar)
  **LinkdIn** | [Sumair Qaisar Jadoon](https://www.linkedin.com/in/sumair-qaisar-jadoon-84a877164/)
 
-👤 **Rizo**
+👤 **Mukhammad Rizo**
 
  Platform | Badge |
  --- | --- |
  **GitHub**  | [@mukhammadrizooff](https://github.com/mukhammadrizooff)
+ **Twitter** | [@sumair_qaisar](https://twitter.com/Muhammadrizooff)
  **LinkedIn** | [Mukhammad Rizo Abdunazarov ](https://www.linkedin.com/in/mukhammadrizooff/)
 
 👤 **David**
