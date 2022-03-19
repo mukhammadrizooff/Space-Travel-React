@@ -17,6 +17,7 @@
 .rocket-description {
   display: flex;
   flex-direction: column;
+  width: calc(100% - 350px);
   gap: 1.8rem;
 }
 
@@ -60,4 +61,10 @@ span {
   border-radius: 5px;
   color: gray;
   transition: color linear 0.2s, border-color;
+}
+
+ul.test1 {
+  display: flex;
+  flex-direction: column;
+
 }

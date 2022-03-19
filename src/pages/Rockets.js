@@ -7,7 +7,7 @@ const Rockets = () => {
   const rocketList = useSelector((state) => state.rockets);
   return (
     <Container>
-      <ul className={styles.flex}>
+      <ul className={styles.test1}>
         {rocketList.map((item) => (
           <RocketItem
             desc={item.desc}
