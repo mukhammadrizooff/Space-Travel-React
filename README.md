@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# Spaces Traveler's Hub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=for-the-badge)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-## Available Scripts
+> Web application that allows users to book rockets, dragons, and join selected space missions using data from the SpaceX API.
 
-In the project directory, you can run:
+![screenshot](Animation02.gif)
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Heroku](https://react-space-travel.herokuapp.com/)
+[Github Pages](https://sumairq.github.io/space-travel-react/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [Spaces Traveler's Hub](#spaces-travelers-hub)
+  - [Live Demo](#live-demo)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Built With](#built-with)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+  - [Scripts](#scripts)
+    - [Start dev server](#start-dev-server)
+    - [Build for production](#build-for-production)
+  - [Connect With Us](#connect-with-us)
+  - [Show your support](#show-your-support)
+  - [Acknowledgments](#acknowledgments)
+  - [License](#license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Description
 
-### `npm run build`
+Spaces Travellers Hub is the React group project from the Microverse Curriculum. You can:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Add or cancel a rocket.
+- Add or cancel a mission.
+- Add or cancel a dragon.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Create React App](https://create-react-app.dev/) Set up a modern web app by running one command.
+- [React Router](https://reactrouter.com/) A declarative library for building single page applications.
+- [Redux](https://redux-toolkit.js.org/) The official, opinionated, batteries-included toolset for efficient Redux development.
+- [React Bootstrap](https://react-bootstrap.github.io/) Build fast, responsive sites with Bootstrap.
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To get a local copy up and running follow these simple example steps.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Node Js
+- Code editor
+- Git 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Setup
 
-## Learn More
+1. Clone this project by typing in your terminal `https://github.com/sumairq/space-travel-react.git` .
+2. Go to the directory with `cd space-travel-react`
+3. Open you favorite code editor ( Vs Code user have to type `code .`)
+4. Type `npm i` to dowload all the depencies and enjoy!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Scripts
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Start dev server
 
-### Code Splitting
+- `npm start` open the browser at `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Build for production
 
-### Analyzing the Bundle Size
+- `npm run build`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Connect With Us
 
-### Making a Progressive Web App
+👤 **Sam**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ Platform | Badge |
+ --- | --- |
+ **GitHub**  | [@sumairq](https://github.com/sumairq)
+ **Twitter** | [@sumair_qaisar](https://twitter.com/sumair_qaisar)
+ **LinkdIn** | [Sumair Qaisar Jadoon](https://www.linkedin.com/in/sumair-qaisar-jadoon-84a877164/)
 
-### Advanced Configuration
+👤 **Mukhammad Rizo**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ Platform | Badge |
+ --- | --- |
+ **GitHub**  | [@mukhammadrizooff](https://github.com/mukhammadrizooff)
+ **Twitter** | [@muhammadrizooff](https://twitter.com/Muhammadrizooff)
+ **LinkedIn** | [Mukhammad Rizo Abdunazarov ](https://www.linkedin.com/in/mukhammadrizooff/)
 
-### Deployment
+👤 **David**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Platform | Badge |
+ --- | --- |
+ **GitHub**  | [@david-david](https://github.com/david-lafontant)
+ **Twitter** | [@manikatex](https://twitter.com/manikatex)
+ **LinkedIn** | [David Lafontant](https://www.linkedin.com/in/david-lafontant/)
 
-### `npm run build` fails to minify
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+The ideas and inspiration from this project are coming from the following articles:
+
+- Microverse
+
+## License
+
+This project is [MIT](MIT.md) licensed.
